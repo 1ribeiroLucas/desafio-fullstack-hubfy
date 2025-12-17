@@ -1,3 +1,3 @@
-# Desafio Fullstack Hubfy - React/Next
+# Desafio Fullstack Hubfy
 
-Documentação completa do desafio
+Documentação completa

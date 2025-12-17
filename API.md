@@ -1,3 +1,3 @@
-# API - NextJS Api Routes
+# Documentação - API
 
-Documentação da API.
+Documentação da API
