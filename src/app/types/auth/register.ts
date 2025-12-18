@@ -1,13 +1,12 @@
-// isolatedModules está ativado
-// não há a necessidade de exportar diretamente
+import { IUserPostRegisterResponse } from '@/src/app/types/user/user';
 
-interface IPostRegisterRequest {
+export interface IPostRegisterRequest {
   name: string;
   email: string;
   password: string;
 }
 
-interface IPostRegisterResponse {
+export interface IPostRegisterResponse {
   message: string;
   user: IUserPostRegisterResponse;
 }
