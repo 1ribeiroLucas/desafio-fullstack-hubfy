@@ -3,6 +3,10 @@ import { loginService } from "@/src/lib/auth";
 import { NextResponse, NextRequest } from "next/server";
 
 export async function POST(request: NextRequest): Promise<NextResponse> {
+  //TODO
+  // Validar email e senha
+  // retornar JWT token
+  // Trocar return por NextResponse.json(loginResponse);
   try {
     const body: IUserPostLoginRequest = await request.json();
 

@@ -7,6 +7,8 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
   //TODO
   // - Validar email único
   // - Validar senha forte
+  // Trocar return por NextResponse.json(postRegisterResponse);
+
   try {
     const body: IPostRegisterRequest = await request.json();
     
